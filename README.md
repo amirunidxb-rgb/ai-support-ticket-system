@@ -60,7 +60,7 @@ json {   "summary": "Customer cannot log in and needs urgent assistance",   "pri
 
 ### 1. Clone Repository
 
-bash git clone https://github.com/YOUR_USERNAME/ai-support-ticket-system.git 
+bash git clone https://github.com/amirunidxb-rgb/ai-support-ticket-system.git 
 
 ---
 
