@@ -16,6 +16,9 @@ AI-powered customer support ticketing workflow built with n8n, Telegram, Groq AI
 - Automatic customer confirmation replies
 
 ---
+## Workflow Overview
+
+```mermaid
 flowchart TD
     A[Telegram Message] --> B[Groq AI Analysis]
     B --> C[Code Parser]
@@ -24,6 +27,7 @@ flowchart TD
 
     E -->|Yes| F[Urgent Alert]
     E -->|No| G[Customer Confirmation]
+```
     
 ---
 
@@ -118,6 +122,5 @@ MIT License
 ---
 
 ## Author
-Amirali Barmar
 
 Built by Amirali Barmar
